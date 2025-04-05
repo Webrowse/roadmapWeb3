@@ -1,12 +1,38 @@
-# React + Vite
+# Web3 Roadmap Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete roadmap tracker built with React, Vite, and Tailwind CSS — designed to help developers become smart contract auditors specializing in Solana programs.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Interactive roadmap with phase-wise dropdowns
+- ✅ Checkboxes to track progress (stored in `localStorage`)
+- ✅ Strikethrough effect on completed tasks
+- ✅ Modular React components
+- ✅ GitHub-linked footer with dynamic year
+- ✅ Hosted on subdomain for public visibility
+- ✅ Deployment-ready with Netlify/Hostinger
 
-## Expanding the ESLint configuration
+## 📌 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- Tailwind CSS
+- Prisma + PostgreSQL (coming up)
+- Google OAuth for saving user progress (coming up)
+- LocalStorage (current progress)
+
+## 🧠 Future Plans
+
+- [ ] Add Google login and persistent progress tracking
+- [ ] Connect with PostgreSQL via Prisma
+- [ ] Add blog posts per learning phase
+- [ ] Showcase hackathon projects
+- [ ] Add animation and dark mode toggle
+
+## 📡 Deployment
+
+- Deployed via Hostinger + Netlify
+- Publicly viewable on [web3sec.adarsh.website](https://web3sec.adarsh.website)
+
+---
+
+Made with 💻 by [Adarsh](https://github.com/Webrowse)
